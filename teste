@@ -1,0 +1,98 @@
+Identificar e priorizar 3 riscos principais para o projeto
+-  A possibilidade do sistema não atender às necessidades dos profisionais que farão uso do mesmo, o que pode acontecer por falhas na comunicação e dificuldade na compreensão do que se solicita, visto que as pessoas que irão desenvolver o sistema não tem conhecimento na área específica de atuação da empresa, de forma que a comunicação deverá ser extremamente detalhada, para que as solicitações sejam atendidas corretamente. 
+- Outro risco é a qualidade do produto não  atender às expectativas dos alunos
+- Risco de ultrapassar os custos por passar do tempo determinado de execução
+
+ORGANIZAR AS TAREFAS POR ENTREGA  E EQUIPE NECESSÁRIA
+- Estudo de viabilidade
+- Planejamento e estimativa de projeto: listar os itens do projeto e recursos necessários
+- Análise de requisitos de software e de sistemas: entender as necessidades e exigências do cliente
+- Projeto da estrutura de dados: quais dados serão inseridos no sistema, e como utilizá-los
+- Algoritmo de processamento:  irá utilizar os dados para gerar informações
+- Codificação 
+- Teste 
+- Manutenção
+ 
+Explicitar a quantidade de entregas planejada e as funcionalidades que serão entregues em cada uma
+Planejamento do projeto:
+Serão 5 entradas, e 5 entregas:
+- Entrada para o aluno – Via computador da academia e via web
+- Entrada para o professor
+- Entrada para o médico
+- Entrada para a academia
+
+
+	Computador dentro da academia
+ENTRADA PARA O ALUNO 
+	O aluno entra no site do sistema
+	O aluno insere o usuário
+	O aluno insere a senha
+	O caso tem início quando o aluno clica em “entrar”
+	O aluno tem acesso à tela principal
+	O aluno tem as seguintes opções na tela principal:
+- Programação de treino diário – contém o treino do dia, inserido no sistema pelo professor
+Para imprimir, basta clicar em “Imprimir”.
+Para sair, basta clicar em “Sair”
+
+	Entradas via WEB
+ENTRADA PARA O ALUNO
+	O aluno entra no site do sistema
+	O aluno insere o usuário
+	O aluno insere a senha
+	O caso tem início quando o aluno clica em “entrar”
+	O aluno tem acesso à tela principal
+	O aluno tem as seguintes opções na tela principal:
+- Programação de treino diário – contém o treino do dia, inserido no sistema pelo professor
+- Agendar aulas extras – contém as aulas extras disponíveis
+- Financeiro – contém o valor da mensalidade atualizado, de acordo com o serviço utilizado (presença de aulas extras, avaliação física, avaliação médica)
+- Avaliação física – contém as medidas realizadas pelo professor e o resultado de sua avaliação, de acordo com métricas específicas, contém histórico das avaliações e evolução
+- Avaliação médica – contém os resultados da avaliação médica, contém histórico médico
+- Fale com seu professor – possibilidade contato direto com o professor 
+Para imprimir, basta clicar em “Imprimir”.
+Para sair, basta clicar em “Sair”
+
+
+ENTRADA PARA A ACADEMIA
+
+	A academia entra no site do sistema
+	A academia insere o usuário
+	A academia insere a senha
+	O caso tem início quando a academia clica em “entrar”
+	A academia tem acesso à tela principal
+	A academia tem as seguintes opções na tela principal:
+- Número de matrícula do aluno – permite acesso aos dados de cada aluno
+Dentro de cada aluno, contém:
+- Programação de treino diário – contém o treino do dia, inserido no sistema pelo professor
+- Agendar aulas extras – contém as aulas extras  agendadas pelo aluno
+- Financeiro – contém o valor da mensalidade atualizado, de acordo com o serviço utilizado (presença de aulas extras, avaliação física, avaliação médica)
+- Avaliação física – contém as medidas realizadas pelo professor e o resultado de sua avaliação, de acordo com métricas específicas, contém histórico das avaliações e evolução
+- Avaliação médica – contém os resultados da avaliação médica, contém histórico médico
+- Fale com seu professor – contém o histórico de conversas 
+Para imprimir, basta clicar em “Imprimir”.
+Para sair, basta clicar em “Sair”
+
+ENTRADA PARA O PROFESSOR 
+	A academia entra no site do sistema
+	O professor insere o usuário
+	O professor insere a senha
+	O caso tem inínio quando O professor clica em “entrar”
+	O professor tem acesso à tela principal
+	A academia tem as seguintes opções na tela principal:
+- Número de matrícula do aluno – permite acesso aos dados de cada aluno
+Dentro de cada aluno, contém:
+- Programação de treino diário – contém o treino do dia, inserido no sistema pelo professor
+- Avaliação física – contém as medidas realizadas pelo professor e o resultado de sua avaliação, de acordo com métricas específicas, contém histórico das avaliações e evolução. Entrada para os dados de nova avaliação física.
+
+ENTRADA PARA O MÉDICO
+	O médico  entra no site do sistema
+	O médico  insere o usuário
+	O médico  insere a senha
+	O caso tem inínio quando O médico  clica em “entrar”
+	O médico  tem acesso à tela principal
+	O médico  tem as seguintes opções na tela principal:
+- Número de matrícula do aluno – permite acesso aos dados de cada aluno
+Dentro de cada aluno, contém:
+- Histórico de avaliação médica
+- Entrada para dados da nova avaliação médica
+Para imprimir, basta clicar em “Imprimir”.
+Para sair, basta clicar em “Sair”
